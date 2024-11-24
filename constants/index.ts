@@ -1,3 +1,5 @@
+// informations of sidebar links
+
 export const sidebarLinks = [
   {
     label: "Home",
