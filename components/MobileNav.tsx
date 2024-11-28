@@ -17,7 +17,7 @@ const MobileNav = () => {
   const pathname = usePathname();
 
   return (
-    <section className="w-full max-w-[264]">
+    <section className="w-full max-w-[264px]">
       {/* Shadcn UI component */}
       <Sheet>
         {/* adding asChild property to avoid unnecessary DOM nesting */}
@@ -50,9 +50,11 @@ const MobileNav = () => {
           {/* links of the sidebar */}
           <div className="flex h-[calc(100vh - 72px)] flex-col justify-between overflow-y-auto">
             {/* wherever we click , it will close the sidebar */}
+
             <SheetClose asChild>
               <section className="flex h-full flex-col gap-6 pt-16 text-white">
                 {/* loop over every links */}
+
                 {sidebarLinks.map((link) => {
                   // check if the link is active or not
                   const isActive = pathname === link.route;
@@ -71,6 +73,7 @@ const MobileNav = () => {
                         )}
                       >
                         {/* icons */}
+
                         <Image
                           src={link.imageUrl}
                           alt={link.label}
