@@ -6,7 +6,6 @@ import {
   CallParticipantsList,
   PaginatedGridLayout,
   SpeakerLayout,
-  useCall,
   useCallStateHooks,
 } from "@stream-io/video-react-sdk";
 import React, { useState } from "react";
