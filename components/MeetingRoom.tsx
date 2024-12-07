@@ -26,15 +26,17 @@ import Loader from "./Loader";
 type CallLayoutType = "grid" | "speaker-left" | "speaker-right";
 
 const MeetingRoom = () => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const { useCallCallingState } = useCallStateHooks();
+  const callingState = useCallCallingState();
+
   const [layout, setLayout] = useState("speaker-left");
 
   const [showParticipants, setShowParticipants] = useState(false);
 
-  const searchParams = useSearchParams();
   const isPersonalRoom = !!searchParams.get("personal");
-
-  const { useCallCallingState } = useCallStateHooks();
-  const callingState = useCallCallingState();
 
   if (callingState != CallingState.JOINED) return <Loader />;
 
@@ -48,9 +50,6 @@ const MeetingRoom = () => {
         return <SpeakerLayout participantsBarPosition={"right"} />;
     }
   };
-
-  const call = useCall();
-  const router = useRouter();
 
   return (
     <section className="relative h-screen w-full overflow-hidden pt-4 text-white">
