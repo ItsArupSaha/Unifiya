@@ -1,19 +1,19 @@
 # Unifiya
 
-Unifiya is a fully functional video meeting application. It allows users to connect seamlessly with others through video calls, screen sharing, chat, and more. This application is designed to provide a smooth and intuitive user experience for virtual meetings, conferences, and collaborations.
+Unifiya is a fully functional video meeting application similar to Zoom. It allows users to connect seamlessly with others through video calls, screen sharing, chat, and more. This application is designed to provide a smooth and intuitive user experience for virtual meetings, conferences, and collaborations.
 
 ---
 
 ## Features
 
-- **Video and Audio Calls**: High-quality video and audio for seamless communication.
 - **Screen Sharing**: Share your screen with participants for presentations and collaborations.
-- **Chat**: Real-time chat during meetings to exchange messages and files.
 - **Meeting Scheduler**: Schedule meetings with reminders and calendar integration.
-- **Secure Meetings**: End-to-end encryption to ensure privacy and security.
+- **Record Meetings**: Capture and save meeting sessions for later reference.
 - **User Authentication**: Secure login and account management.
 - **Cross-Platform Compatibility**: Works on web and mobile devices.
 - **Customizable Meeting Settings**: Host controls for muting, kicking participants, and more.
+- **Using Emojis**: Enhance interactions with emoji reactions during meetings.
+- **Audio & Video Device Control**: Manage and toggle between audio and video devices seamlessly.
 
 ---
 
