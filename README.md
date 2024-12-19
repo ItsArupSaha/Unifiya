@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#Unifiya
 
-## Getting Started
+Unifiya is a fully functional video meeting application similar to Zoom. It allows users to connect seamlessly with others through video calls, screen sharing, chat, and more. This application is designed to provide a smooth and intuitive user experience for virtual meetings, conferences, and collaborations.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Video and Audio Calls: High-quality video and audio for seamless communication.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Screen Sharing: Share your screen with participants for presentations and collaborations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Chat: Real-time chat during meetings to exchange messages and files.
 
-## Learn More
+Meeting Scheduler: Schedule meetings with reminders and calendar integration.
 
-To learn more about Next.js, take a look at the following resources:
+Secure Meetings: End-to-end encryption to ensure privacy and security.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+User Authentication: Secure login and account management.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Cross-Platform Compatibility: Works on web and mobile devices.
 
-## Deploy on Vercel
+Customizable Meeting Settings: Host controls for muting, kicking participants, and more.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#Tech Stack
+
+Frontend: React.js, Next.js
+
+Real-time Communication: Stream API
+
+Authentication: Clerk
+
+Deployment: Vercel
+
+
+#Usage
+
+Create an account or log in with your credentials.
+
+Start a new meeting or join an existing one using a meeting code.
+
+Use the features like video/audio calls, chat, and screen sharing during meetings.
+
+End the meeting and access meeting summaries if available.
