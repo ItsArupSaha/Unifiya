@@ -19,7 +19,7 @@ Unifiya is a fully functional video meeting application similar to Zoom. It allo
 
 ## Tech Stack
 
-- **Frontend**: React.js, Next.js
+- **Frontend Frameworks**: React.js, Next.js, TailwindCSS, ShadCN
 - **Real-time Communication**: Stream API
 - **Authentication**: Clerk
 - **Deployment**: Vercel
